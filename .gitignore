@@ -34,7 +34,6 @@ zsh-syntax-highlighting/
 .cache/
 .cargo/
 .config/.gsd-keyboard.settings-ported
-.config/=
 .config/BraveSoftware/
 .config/Clementine/
 .config/Mullvad VPN/
