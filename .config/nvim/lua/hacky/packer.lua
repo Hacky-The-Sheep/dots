@@ -69,5 +69,9 @@ return require('packer').startup(function(use)
         run = function() vim.fn["mkdp#util#install"]() end,
     })
 
-end)
+    -- LaTex
+    use 'lervag/vimtex'
 
+    -- VimWiki
+    use 'vimwiki/vimwiki'
+end)
