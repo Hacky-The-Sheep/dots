@@ -30,9 +30,9 @@ return require('packer').startup(function(use)
 	}
 
 	-- Treesitter
-	use ('nvim-treesitter/nvim-treesitter',
-	{run =  ':TSUpdate'})
-	use ('nvim-treesitter/playground')
+    use ('nvim-treesitter/nvim-treesitter',
+    {run =  ':TSUpdate'})
+    use ('nvim-treesitter/playground')
 
 	-- Commentary
 	use ('tpope/vim-commentary')
@@ -45,6 +45,9 @@ return require('packer').startup(function(use)
 			{'neovim/nvim-lspconfig'},
 			{'williamboman/mason.nvim'},
 			{'williamboman/mason-lspconfig.nvim'},
+
+            -- Formatting 
+            {'mhartington/formatter.nvim'},
 
 			-- Autocompletion
 			{'hrsh7th/nvim-cmp'},
