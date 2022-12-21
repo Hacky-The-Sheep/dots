@@ -1,8 +1,16 @@
 local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
-lsp.setup()
-
+-- Fix Undefined global 'vim'
+lsp.configure('sumneko_lua', {
+    settings = {
+        Lua = {
+            diagnostics = {
+                globals = { 'vim' }
+            }
+        }
+    }
+})
 
 -- Show diagnostics defaults
 vim.diagnostic.config({
@@ -13,3 +21,5 @@ vim.diagnostic.config({
     severity_sort = false,
     float = true
 })
+
+lsp.setup()
