@@ -142,6 +142,10 @@ alias rmark="ssh root@10.11.99.1"
 # Lazy
 alias code="cd ~/ExtraDrive/Coding"
 
+# Twitch
+alias gotti="mpv https://www.twitch.tv/tugotti78"
+alias mami="mpv https://www.twitch.tv/donscaremami"
+
 # Colorize
 ZSH_COLORIZE_STYLE="colorful"
 ZSH_TMUX_AUTOSTART=true
