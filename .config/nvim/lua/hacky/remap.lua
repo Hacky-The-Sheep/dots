@@ -18,3 +18,6 @@ vim.keymap.set("n", "<leader>md", vim.cmd.MarkdownPreviewToggle)
 -- GO!
 -- Run GO! 
 vim.keymap.set("n", "<leader>go", ":!go run %<CR>")
+
+-- Formatting
+vim.keymap.set("n", "<leader>fm", vim.cmd.Format)
