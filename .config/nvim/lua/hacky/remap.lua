@@ -14,3 +14,7 @@ vim.keymap.set("n", "<leader>pp", ":w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 -- Markdown
 -- Toggle Live Preview
 vim.keymap.set("n", "<leader>md", vim.cmd.MarkdownPreviewToggle)
+
+-- GO!
+-- Run GO! 
+vim.keymap.set("n", "<leader>go", ":!go run %<CR>")
