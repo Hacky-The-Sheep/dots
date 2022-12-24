@@ -109,8 +109,6 @@ alias rtv="rtv --enable-media"
 alias bb="cd -"
 alias rfo="rm -rf"
 alias vrc="vi ~/.config/nvim/init.vim"
-alias p2up='pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
-alias p3up='python3 -m pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 python3.9 -m pip install -U'
 alias python='python3'
 alias vi="nvim"
 
@@ -139,8 +137,13 @@ alias la='exa -a --color=always --group-directories-first --icons'
 # Remarkable
 alias rmark="ssh root@10.11.99.1"
 
-# Lazy
+# Lazy Coding
 alias code="cd ~/ExtraDrive/Coding"
+alias cpy="cd ~/ExtraDrive/Coding/Python/"
+alias cpp="cd ~/ExtraDrive/Coding/cpp/"
+alias cjs="cd ~/ExtraDrive/Coding/JS/"
+alias crst="cd ~/ExtraDrive/Coding/rust/"
+alias cgo="cd ~/ExtraDrive/Coding/go/"
 
 # Twitch
 alias gotti="mpv https://www.twitch.tv/tugotti78"
@@ -155,6 +158,7 @@ alias up="sudo apt upgrade && sudo apt update"
 
 # Shortcuts
 alias screens="rm -f Pictures/Screenshots/*"
+
 
 source /home/hacky/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/hacky/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
