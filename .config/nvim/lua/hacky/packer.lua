@@ -77,4 +77,11 @@ return require('packer').startup(function(use)
 
     -- VimWiki
     use 'vimwiki/vimwiki'
+
+    -- FloatTerm
+    use 'voldikss/vim-floaterm'
+
+    -- Autoclose
+    use 'm4xshen/autoclose.nvim'
+
 end)
