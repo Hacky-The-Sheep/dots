@@ -137,3 +137,8 @@ zsh-syntax-highlighting/
 .zcompdump-pop-os-5.8.1.zwc
 .zshenv
 
+
+
+# Added by cargo
+
+/target
