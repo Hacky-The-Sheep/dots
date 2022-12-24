@@ -12,6 +12,8 @@ lsp.configure('sumneko_lua', {
     }
 })
 
+lsp.setup()
+
 -- Show diagnostics defaults
 vim.diagnostic.config({
     virtual_text = true,
@@ -21,5 +23,3 @@ vim.diagnostic.config({
     severity_sort = false,
     float = true
 })
-
-lsp.setup()
