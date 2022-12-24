@@ -8,16 +8,23 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>tb", vim.cmd.TagbarToggle)
 
 -- Python
--- Run Python Code
-vim.keymap.set("n", "<leader>pp", ":w<CR>:exec '!python3' shellescape(@%, 1)<CR>")
+-- Run python code in a floating window
+vim.keymap.set("n", "<leader>pp", ":FloatermNew --autoclose=0 python3 %<CR>")
 
 -- Markdown
 -- Toggle Live Preview
 vim.keymap.set("n", "<leader>md", vim.cmd.MarkdownPreviewToggle)
 
 -- GO!
--- Run GO! 
-vim.keymap.set("n", "<leader>go", ":!go run %<CR>")
+-- Run GO!
+vim.keymap.set("n", "<leader>go", ":FloatermNew --autoclose=0 !go run %<CR>")
+
+-- CPP
+-- Compile and Run CPP
+vim.keymap.set("n", "<leader>cpp", ":FloatermNew --autoclose=0 g++ % -o %< && ./%< <CR>")
 
 -- Formatting
 vim.keymap.set("n", "<leader>fm", vim.cmd.Format)
+
+-- Rust 🦀
+vim.keymap.set("n", "<leader>rs", ":FloatermNew --autoclose=0 rustc %<.rs && ./%< <CR>")
