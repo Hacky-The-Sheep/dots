@@ -23,7 +23,8 @@ ZSH_THEME="cypher"
 # Get today's date
 today=$(date +%m-%d)
 # Pull the saint from the file
-grep $today saint_of_the_day.md | sed -e 's/\b[0-9]\{2\}-[0-9]\{2\}//g' | cowsay | lolcat
+grep $today saint_of_the_day.md | sed -e 's/\b[0-9]\{2\}-[0-9]\{2\}//g' | cowsay
+echo " "
 
 # cowsay "Hello Hacky"
 
