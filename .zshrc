@@ -19,7 +19,13 @@ ZSH_THEME="cypher"
 
 # Banner Header
 # cat ~/banner.txt
-cowsay "Hello Hacky"
+
+# Get today's date
+today=$(date +%m-%d)
+# Pull the saint from the file
+grep $today saint_of_the_day.md | sed -e 's/\b[0-9]\{2\}-[0-9]\{2\}//g' | cowsay | lolcat
+
+# cowsay "Hello Hacky"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
