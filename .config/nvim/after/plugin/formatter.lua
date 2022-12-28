@@ -27,14 +27,15 @@ require("formatter").setup {
         require("formatter.filetypes.html").prettier,
     },
 
+    json = {
+        require("formatter.filetypes.json").prettier,
+    },
+
     css = {
         require("formatter.filetypes.css").prettier,
     },
-
-    -- Rules for any/all filetypes
     ["*"] = {
       require("formatter.filetypes.any").remove_trailing_whitespace
     }
   }
 }
-
