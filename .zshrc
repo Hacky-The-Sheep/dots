@@ -161,7 +161,7 @@ ZSH_COLORIZE_STYLE="colorful"
 ZSH_TMUX_AUTOSTART=true
 
 # Updates
-alias up="sudo apt upgrade && sudo apt update"
+alias up="sudo apt update && sudo apt upgrade"
 
 # Shortcuts
 alias screens="rm -f Pictures/Screenshots/*"
