@@ -84,4 +84,22 @@ return require('packer').startup(function(use)
     -- Autoclose
     use 'm4xshen/autoclose.nvim'
 
+    -- Mind 🧠
+    use {
+        'phaazon/mind.nvim',
+        branch = 'v2.2',
+        requires = { 'nvim-lua/plenary.nvim' },
+        config = function()
+            require'mind'.setup()
+        end
+    }
+
+    -- Nvim-Tree
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        },
+        tag = 'nightly' -- optional, updated every week. (see issue #1193)
+    }
 end)

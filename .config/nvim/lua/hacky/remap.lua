@@ -27,4 +27,11 @@ vim.keymap.set("n", "<leader>cpp", ":FloatermNew --autoclose=0 g++ % -o %< && ./
 vim.keymap.set("n", "<leader>fm", vim.cmd.Format)
 
 -- Rust 🦀
-vim.keymap.set("n", "<leader>rs", ":FloatermNew --autoclose=0 rustc %<.rs && ./%< <CR>")
+-- vim.keymap.set("n", "<leader>rs", ":FloatermNew --autoclose=0 rustc %<.rs && ./%< <CR>")
+-- Rust (run) clean
+vim.keymap.set("n", "<leader>rr", ":FloatermNew --autoclose=0 cargo run --quiet %<.rs <CR>")
+-- Rust (run) verbose
+vim.keymap.set("n", "<leader>rv", ":FloatermNew --autoclose=0 cargo run %<.rs <CR>")
+
+-- Nvim-Tree 🌲
+vim.keymap.set("n", "<leader>nt", vim.cmd.NvimTreeToggle)
