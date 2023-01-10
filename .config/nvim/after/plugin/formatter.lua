@@ -34,8 +34,8 @@ require("formatter").setup {
     css = {
         require("formatter.filetypes.css").prettier,
     },
-    ["*"] = {
-      require("formatter.filetypes.any").remove_trailing_whitespace
-    }
+    rust = {
+        require("formatter.filetypes.rust").rustfmt,
+    },
   }
 }
