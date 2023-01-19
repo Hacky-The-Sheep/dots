@@ -4,7 +4,7 @@
 
 ## January
 
-01-01 Circumcision of our Lord 
+01-01 Circumcision of our Lord  
 01-02 Holy name of Jesus
 01-03 Octave of St. John
 01-04 Octave of the Holy Innocents
