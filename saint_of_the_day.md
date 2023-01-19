@@ -5,35 +5,35 @@
 ## January
 
 01-01 Circumcision of our Lord  
-01-02 Holy name of Jesus
-01-03 Octave of St. John
-01-04 Octave of the Holy Innocents
-01-05 Vigil of the Epiphany
-01-06 The Epiphany of our Lord
-01-07 Pray your Rosary!
-01-08 The Holy Family (Jesus, Mary, Joseph)
-01-09 Pray your Rosary!
-01-10 Pray your Rosary!
-01-11 Pray your Rosary!
-01-12 Pray your Rosary!
-01-13 Octave of the Epiphany
-01-14 Saint Hilary
-01-15 Pray your Rosary!
-01-16 Saint Marcellus I
-01-17 Saint Anthony of Egypt
-01-18 Saint Peter's Chair at Rome
-01-19 Saint Marius & Comp
-01-20 Saints Fabian, P & Sebastian
-01-21 Saint Agnes, Virgin and Martyr
-01-22 Saints Vincent & Anastasius
-01-23 Saint Raymund of Pennafort
-01-24 Saint Timothy
-01-25 The Conversion of Saint Paul
-01-26 Saint Polycarp
-01-27 Saint John Chrysostom
-01-28 Saint Peter Nolasco
-01-29 Saint Francis de Sales
-01-30 Saint Martina, Virgin & Martyr
+01-02 Holy name of Jesus  
+01-03 Octave of St. John  
+01-04 Octave of the Holy Innocents  
+01-05 Vigil of the Epiphany  
+01-06 The Epiphany of our Lord  
+01-07 Pray your Rosary!  
+01-08 The Holy Family (Jesus, Mary, Joseph)  
+01-09 Pray your Rosary!  
+01-10 Pray your Rosary!  
+01-11 Pray your Rosary!  
+01-12 Pray your Rosary!  
+01-13 Octave of the Epiphany  
+01-14 Saint Hilary  
+01-15 Pray your Rosary!  
+01-16 Saint Marcellus I  
+01-17 Saint Anthony of Egypt  
+01-18 Saint Peter's Chair at Rome  
+01-19 Saint Marius & Comp  
+01-20 Saints Fabian, P & Sebastian  
+01-21 Saint Agnes, Virgin and Martyr  
+01-22 Saints Vincent & Anastasius  
+01-23 Saint Raymund of Pennafort  
+01-24 Saint Timothy  
+01-25 The Conversion of Saint Paul  
+01-26 Saint Polycarp  
+01-27 Saint John Chrysostom  
+01-28 Saint Peter Nolasco  
+01-29 Saint Francis de Sales  
+01-30 Saint Martina, Virgin & Martyr  
 01-31 Saint John Bosco, Priest
  
 --- 
