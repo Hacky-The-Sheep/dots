@@ -3,4 +3,7 @@ require("autoclose").setup({
       ["<"] = { escape = true, close = true, pair = "<>"},
       [">"] = { escape = false, close = false, pair = "<>"},
    },
+   options = {
+       disabled_filetypes = {"markdown"},
+   },
 })
