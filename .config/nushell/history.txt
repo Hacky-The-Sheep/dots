@@ -1,0 +1,351 @@
+cd Documents/
+ls
+code
+cd
+cd ExtraDrive/Coding/rust/
+ls
+cd rust_warrior/
+ls
+ls | sort by size
+ls | sort_by size
+ls | sort-by size
+ls | sort-by name
+ls | sort-by size
+ls | sort-by type
+chsh
+sudo update-alternatives --config x-terminal-emulator
+chsh
+cd
+ei
+nu
+ll
+alias ll = ls -l
+ll
+ll -a
+cd .config/
+ls
+cd nushell/
+ls
+hx config.nu
+env | each { |it| echo $"let-env ($it.name) = '($it.raw)'" } | str join (char nl)
+ei
+alias ei = exit
+git
+cd ExtraDrive/Coding/rust/
+cd rust_bible/
+ls
+cd src/
+ls
+cd ..
+cd projects/
+cd hacky_site/
+git status
+os
+ps
+ps | where cpu > 8
+datae
+date
+date now
+sys
+sys | get host
+neofetch
+^ls
+ls
+cd
+cargo install starship
+curl -sS https://starship.rs/install.sh | sh
+$nu.env_path
+$nu.env-path
+cd .config/nushell/
+hx env.nu
+ei
+exitr
+cd .config/nushell/
+hx env.nu
+ei
+starship
+mkdir ~/.cache/starship
+starship init nu | save ~/.cache/starship/init.nu
+cd .config/nushell/
+hx env.nu
+ei
+cd ExtraDrive/
+cd Coding/rust/hello_world/
+ei
+alias ei = exit
+ei
+nb
+ei
+newsboat
+mkdir -p ~/.config && touch ~/.config/starship.toml
+mkdir -p ~/.config and touch ~/.config/starship.toml
+mkdir ~/.config and touch ~/.config/starship.toml
+cd .config/
+hx starship.toml/
+rm -rf starship.toml/
+hx starship.toml
+rust
+cd
+cd ExtraDrive/Coding/rust/
+ls
+cd r_comics/
+ls
+crst
+code
+cd ExtraDrive/Coding/rust/
+cd test_ground/
+hx 
+vi
+ei
+nvim
+ei
+cd ExtraDrive/Coding/Advent_of_Code_2022/rust/
+ls
+cargo new 
+hu;
+ls
+cargo new --lib day-01
+hx .
+vi
+nvim
+dir
+sl
+ls
+cd ,,
+cd ..
+ls;
+ls
+cd rust/
+ls
+cd day-01/
+ls
+cd 2
+cd src/
+ls
+mkdir bin
+ls
+cd bin/
+ls
+touch part-1.rs
+touch part-2.rs
+ls
+vi
+nvim
+cd ..
+ls
+touch input.txt
+hx input.txt
+cd ExtraDrive/Coding/Advent_of_Code_2022/rust/
+cd day-01/
+ls
+cargo run --bin part-1
+cargo watch -x "run --bin part-1"
+cargo run --bin part-1
+cargo watch -x "run --bin part-1"
+cargo --list
+cargo install cargo-watch
+cargo watch -x "run --bin part-1"
+cargo run --bin part-1
+ls
+hx 
+hx input.txt
+cargo run --bin part-1
+cargo watch -x "run --bin part-1"
+cargo run --bin part-2
+nu.scope.aliases
+alias ei = exit
+nu.scope.aliases
+cd .config/nushell/
+ls
+hx config.nu
+vi config.nu
+nvim config.nu
+hx config.nu
+hx .zshrc
+ei
+cd .config/nushell/
+ei
+alias cat = ccat
+ccat
+vui
+vi
+ei
+hx config.nu
+ls
+addalias "alias vi = nvim"
+alias vi = nvim
+vi
+> config --get startup | append "alias addalias [alias-string] { config --get startup | append $alias-string | config --set_into startup }" | config --set_into startup
+ls
+cd .config/nushell/
+alias ll = ls -l
+ll
+hx config.nu
+ei
+vi
+hx config.nu
+nu
+cat config.nu
+crst
+ls
+cd test_ground/
+ls
+screens
+cd
+cd Pictures/
+ls
+cd Screenshots/
+ls
+screens
+ls
+rm Screenshot*
+ls
+cd ..
+crst
+cd test_ground/q
+cd test_ground/
+ls
+hx 
+code
+cd
+code
+cd ExtraDrive/Coding/Advent_of_Code_2022/rust/
+ls
+cd day-01/
+hx 
+crst
+cd test_ground/
+ls
+hx 
+vi
+nu
+ei
+crst
+cd test_ground/
+hx 
+cd
+cd .config/nushell/
+hx config.nu
+cd .config/nushell/
+hx config.nu
+ls
+crst
+ls
+cd test_ground/
+crst
+cd test_ground/
+cargo run
+cargo run --quiet 
+crst
+code
+cd
+code
+cd .config/nushell/
+ls
+hx config.nu
+code
+cd
+cd ExtraDrive/Coding/Advent_of_Code_2022/rust/
+ls
+cd day-01/
+hx 
+ls
+cd ..
+ld
+ls
+cd leetcode/
+ls
+cd rust_solutions/
+ls
+cd ..
+cargo new --lib leet_9
+cd leet_9/
+hx
+ls
+hx
+ls
+cd src/
+ls
+mkdir bin and cd bin
+ls
+rm -rf and
+rm -rf cd
+ls
+cd bin/
+ls
+cd bin/
+ls
+hx
+touch leet_9.rs
+hx 
+cd ..
+cd leet_9/
+hx
+cd ..
+cargo new --lib leet-9
+cd leet-9/
+cd src/
+ls
+mkdir bin
+cd bin/
+touch leet_9.rs
+hx
+cargo watch -x "run --bin part-1pub fn leet_9(x: u32) -> bool {"
+    println!("{x}");
+    false
+}
+#[cfg(test)]
+mod tests {<\n>    // use super::*;<\n><\n>    #[test]<\n>    fn it_works() {<\n>        const X: u32 = 232;<\n>        let result = leet_9(X);<\n>        assert_eq!(result, true);<\n>    }<\n>}
+crst
+code
+cd
+cd ExtraDrive/Coding/Advent_of_Code_2022/rust/
+ls
+cd ..
+cd leetcode/
+ls
+cd leet-9/
+ls
+carg watch -x "run --bin leet-9"
+cargo watch -x "run --bin leet-9"
+cargo watch -x "run --bin leet_9"
+git clone https://github.com/catppuccin/bat.git
+mkdir -p "$(bat --config-dir)/themes"
+cd ..
+cd .config/bat/
+ls
+bat --config-file
+ls
+hx config
+bat cache --build
+ls
+bat config
+bat themes/
+cd themes/
+ls
+bat Catppuccin-mocha.tmTheme
+bat config
+cpy
+ls
+bat test.py
+ls
+ sudo apt-add-repository ppa:fish-shell/release-3
+up
+chsh -s /usr/local/bin/fish
+fish
+hx 
+nb
+cat /etc/shells
+ls
+gs
+lazygit
+hx .config/nushell/config.nu
+date
+date now
+date now --month
+date now --help
+date --help
+date format --help
+hx .config/nushell/config.nu
+ei
+ga
